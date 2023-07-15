@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  background-color: rgb(38, 6, 6);
+}
+
+/* .App{
+  text-align: center;
+  background-color: maroon;
+  background-image: url(https://img.freepik.com/free-vector/vector-seamless-food-chalkboard-wallpapers-mostly-used-restaurants-designs_1284-43589.jpg?w=740&t=st=1689259035~exp=1689259635~hmac=0157939…);
+  background-size: initial;
+  background-blend-mode: color-burn;
+} */
+
+.headContent{
+  font-size: 5rem;
+  color: rgb(53, 8, 8);
+  font-family: 'Pacifico', cursive !important;
+}
+
+.subHead{
+  font-size: large;
+}
+
+.image {
+  max-width : auto ;
+  height : 700px ;
+  background-image: url('./images/top-view-circular-food-frame.jpg');
+  background-size: cover;
+  margin-top: 0%;
+}
+
+.container{
+  margin-top: 150px;
+  padding-bottom: 150px;
+}
+
+.deliveryImg {
+  width: auto ;
+  height: 260px;
+}
+
+.button{
+  color: #641b14;
+}
+
+.appImg{
+  width: auto ;
+  height: 260px;
+}
+
+.resturantImg{
+  width: auto ;
+  height: 260px;
+}
+
+.iconImg {
+  width: fit-content;
+  height: fit-content;
+}
+
+.resturantContainer{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+.appContainer{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+.footer{
+  background-color:  rgb(38, 6, 6);
+  height: 120px;
+  text-align: center;
+
+
+}
+
+.MuiGrid-item {
+  padding-top: 0 !important;
+}
+
+.logo{
+  width: 135px;
+  height: 50px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 10px;
+  background-color: rgb(38, 6, 6);
+}
+
+.menuItem {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+  display: inline-block;
+  transition: color 0.3s ease-in-out;
+}
+
+.menuItem:hover {
+  color: lightgray;
+}
+
